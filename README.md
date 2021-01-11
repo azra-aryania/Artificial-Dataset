@@ -16,10 +16,9 @@ Let explain it with an example. Suppose that we want to generate Y=(Y_1.Y_2.….
 where ρ_1 is a correlation coefficient between x and y, ρ_2 is a correlation coefficient between x and z, and ρ_3 is a correlation coefficient between y and z.
 
 In Pearson's correlation, ρ=-1 indicates a perfect negative linear relationship between two variables, ρ<0 indicates a negative relationship, ρ=0 indicates no linear relationship between two variables, ρ>0 indicates a positive relationship, and ρ=1 shows a perfect positive linear relationship between the variables. We initialized each of the considered coefficients to 10 different values to cover all possible correlations between the variables, as shown in the below Table.
-|                                  |         Coefficient(ρ)      |
+|  Strength of Relationship        |         Coefficient(ρ)      |
 |--------------------------------- |:---------------------------:|
-| Strength of Relationship         |   *Positive*  |  *Negative* |
-| ---------------------------------|:-------------:| -----------:|
+|                                  |   *Positive*  |  *Negative* |
 | Weak                             |     0.3       |    -0.3     |
 | Medium                           |     0.5       |    -0.5     |
 | No Relationship                  |      0        |      0      |
