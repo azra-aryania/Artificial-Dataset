@@ -3,12 +3,9 @@
 The artificial dataset includes four variables. We used a uniform random generator algorithm based on Pearson's correlation coefficients (ρ) ranging in [-1,1] to generate the linear relationship between the variables. The pseudocode of the correlated uniform random generation algorithm is shown as follows:
 
 ```
- 1:             Generate X∼U(0,1)  
-
- 2:             Initialize R as a correlation matrix between the variables  
-                
- 3:             Compute C such that CTC=R   /∗  Compute the Cholesky Decomposition ∗/  
-
+ 1:             Generate X∼U(0,1) 
+ 2:             Initialize R as a correlation matrix between the variables 
+ 3:             Compute C such that CTC=R   /∗  Compute the Cholesky Decomposition ∗/ 
  4:             set Y=CTX and normalize its variables separately to a range (0,1)
 ```
 
