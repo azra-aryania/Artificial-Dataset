@@ -6,10 +6,8 @@ The artificial dataset includes four variables. We used a uniform random generat
 1:             Generate X∼U(0,1)  
 
 2:             Initialize R as a correlation matrix between the variables  
-
-                /∗  Compute the Cholesky Decomposition ∗/  
                 
-3:             Compute C such that CTC=R 
+3:             Compute C such that CTC=R   /∗  Compute the Cholesky Decomposition ∗/  
 
 4:             set Y=CTX and normalize its variables separately to a range (0,1)
 
