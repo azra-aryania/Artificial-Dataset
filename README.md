@@ -31,9 +31,11 @@ After producing X and R, we compute C, such that CTC=R. We can use the Cholesky 
 
 *The Cholesky Decomposition of a Symmetric Positive-Definite Matrix*
 
-In linear algebra, any symmetric positive definite matrix, M, can be written as:
+In linear algebra, any symmetric positive definite matrix, M, can be written as:  
+
                                       M=U^T DU
-where U is an upper triangular matrix, and D is a diagonal matrix with positive diagonal elements. Therefore, for each symmetric positive definite matrix R, we can write: 
+where U is an upper triangular matrix, and D is a diagonal matrix with positive diagonal elements. Therefore, for each symmetric positive definite matrix R, we can write:   
+
                                       R=U^T DU=(U^T √D)(√D U)=(√D U)^T (√D U)
 Which yields C=(√D U) that satisfies CTC=R.  
 As mentioned in the pseudocode in line (4), Y=CTX, and then normalization of its variables to a range [0,1] produces our artificial dataset (matrix Y).
