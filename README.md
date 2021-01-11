@@ -9,9 +9,10 @@ The artificial dataset includes four variables. We used a uniform random generat
 3:             Compute C such that CTC=R
 4:             set Y=CTX and normalize its variables separately to a range (0,1)
 
-Let explain it with an example. Suppose that we want to generate Y=(Y_1.Y_2.….Y_n) where Y∼U(0,1). Let X=(X_1.X_2.….X_n) where X∼U(0,1) and X_i=(x,y,z) for i=1,…,n. Also, the correlation matrix R for three variables is defined as follows:
+Let explain it with an example. Suppose that we want to generate Y=(Y_1.Y_2.….Y_n) where Y∼U(0,1). Let X=(X_1.X_2.….X_n) where X∼U(0,1) and X_i=(x,y,z) for i=1,…,n. Also, the correlation matrix R for three variables is defined as follows:  
+
                         [1  ρ_1 ρ_2]
-                     R= [ρ_1 1  ρ_3 ]
+                     R= [ρ_1 1  ρ_3]
                         [ρ_2 ρ_3 1 ]
                      
 where ρ_1 is a correlation coefficient between x and y, ρ_2 is a correlation coefficient between x and z, and ρ_3 is a correlation coefficient between y and z.
