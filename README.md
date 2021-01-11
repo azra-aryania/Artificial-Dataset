@@ -28,7 +28,7 @@ Perfect                                              1                     1
 
 After producing X and R, we compute C, such that CTC=R. We can use the Cholesky decomposition of R to find such a matrix C, as explained in the following. 
 
-# The Cholesky Decomposition of a Symmetric Positive-Definite Matrix
+* The Cholesky Decomposition of a Symmetric Positive-Definite Matrix *
 
 In linear algebra, any symmetric positive definite matrix, M, can be written as:
                                       M=U^T DU
