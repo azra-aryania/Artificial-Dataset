@@ -19,7 +19,7 @@ In Pearson's correlation, ρ=-1 indicates a perfect negative linear relationship
 |                                  |         Coefficient(ρ)      |
 |--------------------------------- |:---------------------------:|
 | Strength of Relationship         |   *Positive*  |  *Negative* |
-| ---------------------------------| -------------:| -----------:|
+| ---------------------------------|:-------------:| -----------:|
 | Weak                             |     0.3       |    -0.3     |
 | Medium                           |     0.5       |    -0.5     |
 | No Relationship                  |      0        |      0      |
